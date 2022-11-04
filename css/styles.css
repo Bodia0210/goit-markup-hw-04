@@ -400,6 +400,7 @@ height: 60px;
 
 .footer-link {
   display: flex;
+  align-items: center;
 }
 
 .network-menu {
@@ -410,6 +411,7 @@ height: 60px;
 
 .add {
   padding-left: 70px;
+  padding-top: 40px;
 }
 
 .link-title {
