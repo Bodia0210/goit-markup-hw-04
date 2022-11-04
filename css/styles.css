@@ -399,14 +399,17 @@ height: 60px;
 }
 
 .footer-link {
-  padding-left: 516px;
-  margin-bottom: 100px;
+  display: flex;
 }
 
 .network-menu {
   display: flex;
   list-style: none;
   
+}
+
+.add {
+  padding-left: 70px;
 }
 
 .link-title {
