@@ -311,30 +311,29 @@ color: #2196f3;
 }
 
 .button-network {
-  display: inline-block;
+display: inline-block;
 padding: 0;
+margin-bottom: 30px;
 border: none;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+color: #afb1b8;
 }
 
 .button-network:hover,
 .button-network:focus {
-color: white;
 background-color: #2196f3;
+color: gold;
 }
 
 
 .network {
   width: 20px;
   height: 20px;
+  fill: currentColor;
 }
 
-.network:hover,
-.network:focus {
-  color: #ffffff;
-}
 
 .regular-client {
   padding-top: 94px;
@@ -346,11 +345,10 @@ background-color: #2196f3;
 }
 
 .client-icone {
-  display: block;
-  justify-content: center;
+display: block;
 margin-top: 50px;
-  width: 106px;
-  height: 60px;
+width: 106px;
+height: 60px;
 }
 
 /* footer */
@@ -398,6 +396,42 @@ margin-top: 50px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link {
+  padding-left: 516px;
+  margin-bottom: 100px;
+}
+
+.network-menu {
+  display: flex;
+  list-style: none;
+  
+}
+
+.link-title {
+  margin-bottom: 20px;
+  ont-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-button {
+display: inline-block;
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+}
+
+.footer-network {
+width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 /* portfolio page */
