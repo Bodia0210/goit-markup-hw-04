@@ -191,9 +191,8 @@ color: #2196f3;
 
 .fetures-menu {
   display: flex;
-  height: 120px;
+  height: 248px;
   padding-left: 0;
-  margin-bottom: 30px;
 }
 
 .fetures-icone {
@@ -355,6 +354,10 @@ fill: #FFFFFF;
     line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.icones-title {
+  margin-top: 50px;
 }
 
 .activ-icons {
