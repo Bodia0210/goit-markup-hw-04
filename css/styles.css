@@ -187,6 +187,7 @@ color: #2196f3;
 
 .fetures {
   margin-top: 94px;
+  padding-top: ;
 }
 
 .fetures-menu {
@@ -197,7 +198,8 @@ color: #2196f3;
 
 .fetures-icone {
   display: block;
-  margin-left: 100px;
+  /* margin-top: 20px; */
+  /* margin-left: 100px; */
   margin-bottom: 25px;
   width: 70px;
   height: 70px;
@@ -213,6 +215,14 @@ color: #2196f3;
 
 .fetures-list:last-child {
   margin-right: 0;
+}
+
+.fetures-container {
+  display: flex;
+  padding: 20px 100px;
+  width:270px;
+  height: 120px;
+  background-color: #F5F4FA;
 }
 
 .fetures-title {
@@ -375,6 +385,11 @@ fill: #FFFFFF;
   fill: #2196f3;
 }
 
+.activ-icons:hover,
+.activ-icons:focus {
+  border: 1px solid #2196f3;
+}
+
 .client-link {
   fill: #AFB1B8;
   }
@@ -535,12 +550,15 @@ width: 20px;
   margin-right: 0;
 }
 
-.link-projeckt:hover,
-.link-projeckt:focus {
-box-shadow: 
-0px 1px 1px rgba(0, 0, 0, 0.12), 
-0px 4px 4px rgba(0, 0, 0, 0.06), 
-1px 4px 6px rgba(0, 0, 0, 0.16);}
+.item-filtr:hover,
+.item-filtr:focus {
+  box-shadow:
+      0px 1px 1px rgba(0, 0, 0, 0.12),
+      0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
 
 .projeck-name {
   margin-top: 20px;
